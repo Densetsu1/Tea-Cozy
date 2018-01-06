@@ -138,3 +138,14 @@ a{
   width: 300px;
   margin: 0px 20px;
 }
+
+/*-----------------------------------------------------------------------------*/
+/*Footer styles*/
+.details{
+  height: 200px
+}
+
+.copyright{
+  padding-left: 20px;
+  text-align: left;
+}
