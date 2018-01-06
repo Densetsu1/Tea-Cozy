@@ -7,6 +7,7 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: auto;
 }
 
 /*-----------------------------------------------------------------------------*/
@@ -19,6 +20,7 @@ header{
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 .logo{
@@ -49,6 +51,14 @@ a{
   width: 1200px;
 }
 
+.image{
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*Mission styles*/
 .mission{
   display: flex;
   background-image: url('../images/img-mission-background.jpg');
@@ -60,4 +70,45 @@ a{
   background-color: black;
   width: 100%;
   margin: auto;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*Featured Tea styles*/
+
+.feature{
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.item{
+  display: inline-flex;
+  flex-flow: column wrap;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.item span{
+  padding-top: 10px;
+}
+
+.berry .image{
+  display: block;
+  background-image: url('../images/img-berryblitz.jpg');
+}
+
+.rum .image{
+  background-image: url('../images/img-spiced-rum.jpg');
+}
+
+.donuts .image{
+  background-image: url('../images/img-donut.jpg');
+}
+
+.ave .image{
+  background-image: url('../images/img-myrtle-ave.jpg');
+}
+
+.bizzare .image{
+  background-image: url('../images/img-bedford-bizarre.jpg');
 }
